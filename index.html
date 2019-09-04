@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap" rel="stylesheet">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>The Guard's Riddle</h1>
+      <img src='botw-guardian.png' alt='a guardian from breath of the wild :)' />
+      <p>It is dusk. You have traveled a long way and find yourself at a large gate guarded by a great stone guardian.</p>
+      <p>You have long heard about this fabled gate, and the riddle that the guardian requires for those wishing to pass. Your days in study in preparation for this trial have been long.</p>
+      <p>"Traveler! I am the guardian of this gate. Guess what number I am thinking of, and you shall pass through," whispers a voice. You assume it is from this guardian, but the sound seems to come from all around you.</p>
+      <p>You pause and think. Is this what your studies have prepared you for? "How can I be so sure that you'll be truthful if I've guessed it?" you ask.</p>
+      <p>A piercing light emits from the guardian's helm. "I would never lie. I will tell you that it is a number between 1 and 100."</p>
+      <p>"This isn't so much a riddle as a guessing game," you mutter under your breath.</p>
+        <h2>You have five guesses.</h2>
+        <ul>
+          <li>x</li>
+          <li>x</li>
+          <li>x</li>
+          <li>x</li>
+          <li>x</li>
+        </ul>
+        <input type='button' value='Ask for a hint' id='hint'>
+        <input placeholder='Type your guess here' id='guess'>
+        <input type='button' value='Make your guess' id='submit'>
+        <hr>
+        <br>
+        <input type='button' value='Start over' id='reset'>
+    </div>
+
+
+
+    <script src='js/guessing-game.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>

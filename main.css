@@ -1,0 +1,51 @@
+/* Write your CSS code in this file */
+* {
+  color: rgb(212, 134, 134);
+  text-align: center;
+  font-family: monospace;
+}
+
+body {
+  background: linear-gradient(#3333c4, #5c0655, #100129);
+}
+
+h1, h2, h3 {
+  font-family: 'Bilbo Swash Caps', cursive;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid rgb(212, 134, 134);
+  padding: 8px;
+  margin: 5px;
+  height: 15px;
+  width: 25px;
+}
+
+img {
+  width: 450px;
+  float: left;
+  padding: 10px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: left;
+}
+
+input {
+  margin: 10px;
+  border: 1px solid rgb(212, 134, 134);
+  background-color: #5c0655;
+  display: inline-block;
+  height: 30px;
+}
+
+hr {
+  border-color: #5c0655;
+}
