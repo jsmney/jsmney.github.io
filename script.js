@@ -44,7 +44,7 @@ function getUnlockedProducers(data) {
   // your code here
   const unlocked = [];
   for (let i in data.producers) {
-    if (data.producers[i].unlocked) {
+    if (data.producers[i].unlocked === true) {
       unlocked.push(data.producers[i])
     }
   }
