@@ -2,7 +2,12 @@
 
 let clickIncrement = 1;
 let priceMultiplier = 1.25;
-let upgradeArr = window.localStorage.upgrades.split(' ') || [0, 0, 0];
+let upgradeArr;
+if (window.localStorage.upgrades.split(' ') !== undefined) {
+  upgradeArr = window.localStorage.upgrades.split(' ');
+} else {
+  upgradeArr = [0, 0, 0];
+}
 
 /**************
  *   SLICE 1
