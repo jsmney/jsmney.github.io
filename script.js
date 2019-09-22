@@ -3,7 +3,7 @@
 let clickIncrement = 1;
 let priceMultiplier = 1.25;
 let upgradeArr;
-if (window.localStorage.upgrades.split(' ') !== undefined) {
+if (window.localStorage.upgrades) {
   upgradeArr = window.localStorage.upgrades.split(' ');
 } else {
   upgradeArr = [0, 0, 0];
