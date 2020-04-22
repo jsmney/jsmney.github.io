@@ -1,4 +1,11 @@
+* {
+  font-family: 'Scala Sans', Roboto, Helvetica, Arial, sans-serif;
+}
 #header {
   background-color: #9ad6cc;
   padding: 1rem;
+}
+
+.project-img {
+  border-radius: 20px;
 }
